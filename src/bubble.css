@@ -1,0 +1,27 @@
+.bubble-new{
+    line-height:0px;
+    width:200px;
+    height:60px;
+    text-align:center;
+    border:2px solid #6e6e6e;
+    border-radius: 15px;
+}
+
+.bubble-same{
+    display:inline-block;
+    margin-right:5px;
+    line-height:5px;
+    width:100px;
+    height:30px;
+    text-align:center;
+    border:1px solid #008099;
+    border-radius: 10px;
+}
+
+
+.bubble-text{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size:15px;
+    color:#6e6e6e;
+}

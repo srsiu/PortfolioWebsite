@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "http://localhost:8080/myreactapp/static/css/main.5f361e03.chunk.css",
+    "main.js": "http://localhost:8080/myreactapp/static/js/main.064822a0.chunk.js",
+    "main.js.map": "http://localhost:8080/myreactapp/static/js/main.064822a0.chunk.js.map",
+    "runtime-main.js": "http://localhost:8080/myreactapp/static/js/runtime-main.9b921117.js",
+    "runtime-main.js.map": "http://localhost:8080/myreactapp/static/js/runtime-main.9b921117.js.map",
+    "static/js/2.f03af25c.chunk.js": "http://localhost:8080/myreactapp/static/js/2.f03af25c.chunk.js",
+    "static/js/2.f03af25c.chunk.js.map": "http://localhost:8080/myreactapp/static/js/2.f03af25c.chunk.js.map",
+    "index.html": "http://localhost:8080/myreactapp/index.html",
+    "precache-manifest.1a590de79884fd94affa0fc012314510.js": "http://localhost:8080/myreactapp/precache-manifest.1a590de79884fd94affa0fc012314510.js",
+    "service-worker.js": "http://localhost:8080/myreactapp/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "http://localhost:8080/myreactapp/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.f03af25c.chunk.js.LICENSE.txt": "http://localhost:8080/myreactapp/static/js/2.f03af25c.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "http://localhost:8080/myreactapp/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b921117.js",
+    "static/js/2.f03af25c.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.064822a0.chunk.js"
+  ]
+}

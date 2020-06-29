@@ -1,0 +1,308 @@
+
+/* home page styles */
+.home-page-window{
+    height:100%;
+    width:100%;
+}
+
+.full-half{
+    vertical-align: top;
+    position:relative;
+    height:70%;
+    width:100%;
+    border-bottom:1px solid #dedede;
+}
+
+.left-half{
+    vertical-align: top;
+    display:inline-block;
+    position:relative;
+    height:70%;
+    width:55%;
+}
+
+.right-half{
+    display:inline-block;
+    position:relative;
+    height:70%;
+    width:45%;
+}
+
+.home-image{
+    position:relative;
+    width:100%;
+    height:auto;
+}
+
+.intro-block{
+    text-align:left;
+    position: relative;
+    top:200px;
+    left:250px;
+}
+
+.hello-world-font{
+    display: inline-block;
+    /*font-family: 'Roboto', sans-serif;*/
+    /*
+    font-family: 'Montserrat', sans-serif;
+    */
+    font-family: 'Raleway', sans-serif;
+    font-size:72px;
+    font-weight: bold;
+    color:black;
+    margin:0;
+}
+
+.name-font{
+    display: inline-block;
+    /*font-family: 'Roboto', sans-serif;*/
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Raleway', sans-serif;
+    font-size:72px;
+    font-weight: bold;
+    color:#004f59;
+    margin:0;
+}
+
+.short-intro-font{
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Raleway', sans-serif;
+
+    font-size:20px;
+    color:#474747;
+    margin-top:50px;
+}
+
+.button-block{
+    position:relative;
+    top:250px;
+    left:250px;
+}
+
+.computer-block{
+    position:relative;
+    top:175px;
+    left:100px;
+    height:490px;
+    width:auto;
+}
+
+.slides-block{
+    position:absolute;
+    top:195px;
+    left:115px;
+    width:500px;
+    height:auto;
+}
+
+.slide-img{
+    width:500px;
+    height:auto;
+}
+
+/* header styles */
+.header-banner{
+    width:100vw;
+    height:85px;
+    background-color:black;
+    line-height:70px;
+}
+
+.header-block{
+    position: relative;
+    top:10px;
+    left:700px;
+}
+
+.header-font{
+    text-decoration: none;
+    display:inline-block;
+    margin-left:30px;
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+    color:white;
+}
+
+/* about me page styles */
+.first-section{
+    position:relative;
+    width:100vw;
+    height:750px;
+    box-shadow: 0 1px 2px gray;
+}
+
+.about-me-block{
+    position:relative;
+    display:inline-block;
+    left:300px;
+    top:-50px;
+}
+
+.about-me-header{
+    font-family: 'Raleway', sans-serif;
+    font-size:72px;
+    font-weight: bold;
+    margin:0;
+}
+
+.about-me-paragraph-text{
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+    margin-top:50px;
+}
+
+.image-block{
+    position:relative;
+    display:inline-block;
+    top:50px;
+    left:400px;
+    width:400px;
+    height:500px;
+}
+
+.grad_pic{
+    height:auto;
+    width:100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.side-image-block{
+    position:relative;
+    display:inline-block;
+    vertical-align:top;
+    top:50px;
+    left:425px;
+    width:100px;
+    height:500px;
+}
+
+.side-img-hovered{
+    opacity:1;
+    transition:0.4s;
+    left:20px;
+    width:250%;
+    height:auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.side-img-unhovered{
+    opacity:0.60;
+    transition:0.4s;
+    max-width:100%;
+    height:auto;
+    margin-bottom:5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.second-section{
+    position:relative;
+    top:-70px;
+    background-color:#f2f2f2;
+    width:100vw;
+    height:1300px;
+    box-shadow: 0 1px 2px gray;
+}
+
+.experience-block{
+    position:relative;
+    top:75px;
+    left:500px;
+
+}
+
+.experience-text{
+    font-family: 'Raleway', sans-serif;
+    font-size:72px;
+    font-weight: bold;
+}
+
+.uci-block{
+    position:relative;
+    left:0px;
+    top:-50px;
+}
+
+.education-header{
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+    font-weight: bold;
+    color:black;
+
+    width:870px;
+    border-bottom:solid 1px gray;
+}
+
+.uci-logo{
+    position:relative;
+    display: inline-block;
+    top:50px;
+    margin-right:50px;
+    width:120px;
+    height:auto;
+}
+
+.lspire-logo{
+    position:relative;
+    display: inline-block;
+    top:0px;
+    margin-right:50px;
+    width:120px;
+    height:auto;
+}
+
+.uci-text{
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+    font-weight: bold;
+    color:black;
+}
+
+.lspire-text{
+    display: inline-block;
+    margin-top:100px;
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+    font-weight: bold;
+    color:black;
+}
+
+.year-text{
+    display: inline-block;
+    margin-left:300px;
+    margin-top:0px;
+    text-align: right;
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+    color:black;
+}
+
+.relevant-course{
+    margin-left:170px;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+    color:black;
+}
+
+.course-list{
+    list-style-type:circle;
+    margin-left:170px;
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+    color:black;
+}
+
+.bubble-block{
+    position:relative;
+    margin-left:170px;
+    margin-top:40px;
+}
+
+.bubble-break{
+    height:10px;
+}
