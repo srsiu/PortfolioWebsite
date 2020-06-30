@@ -10,6 +10,7 @@ import './App.css';
 import PageHeader from "./header";
 import HomePage from "./homePage";
 import AboutMe from "./AboutMe";
+import Projects from "./Projects";
 
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
                     <Switch>
                         <Route path="/blog" component={BlogScreen}/>
                         <Route path="/about" component={AboutMe}/>
+                        <Route path="/projects" component={Projects}/>
                         <Route path="/" component={HomePage}/>
                     </Switch>
                 </BrowserRouter>

@@ -306,3 +306,65 @@
 .bubble-break{
     height:10px;
 }
+
+/*---PROJECT PAGE---*/
+.project-section{
+    position:relative;
+    top:-70px;
+    width:100vw;
+    height:1300px;
+}
+
+.project-page-left-spacing{
+    position:relative;
+    top:75px;
+    left:300px;
+}
+
+.project-block{
+    position:relative;
+    left:0px;
+    top:-50px;
+}
+
+.project-info{
+    position:relative;
+    display:inline-block;
+}
+
+.project-screenshot{
+    position:relative;
+    display:inline-block;
+    vertical-align: top;
+    margin-left:50px;
+    width:650px;
+    height:auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.project-title{
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+    font-weight: bold;
+    color:black;
+}
+
+.project-points{
+    list-style-type:circle;
+    margin-left:0px;
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+    color:black;
+}
+
+.project-bubble-block{
+    position:relative;
+    margin-left:0px;
+    margin-top:40px;
+}
+
+.project-spacing{
+    height:150px;
+}
