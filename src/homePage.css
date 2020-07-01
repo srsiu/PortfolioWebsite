@@ -327,6 +327,12 @@
     top:-50px;
 }
 
+.project-info-right{
+    position:relative;
+    display:inline-block;
+    left:700px;
+}
+
 .project-info{
     position:relative;
     display:inline-block;
@@ -366,5 +372,63 @@
 }
 
 .project-spacing{
-    height:150px;
+    height:200px;
+}
+
+.other-projects-section{
+    position:relative;
+    top:100px;
+    height:750px;
+    width:100vw;
+}
+
+.other-proj-header{
+    position:relative;
+    font-family: 'Raleway', sans-serif;
+    font-size:50px;
+    font-weight: bold;
+    left:400px;
+}
+
+.horizontal-row{
+    position:relative;
+    width:1500px;
+    height:400px;
+}
+
+.single-proj{
+    position:relative;
+    vertical-align:top;
+    display:inline-block;
+    margin-right:100px;
+    background-color:#f2f2f2;
+    width:400px;
+    height:375px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.single-proj-title{
+    position:relative;
+    top:20px;
+    left:20px;
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+    font-weight: bold;
+    color:black;
+}
+
+.single-proj-text{
+    position:relative;
+    top:20px;
+    left:20px;
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+    color:black;
+}
+
+.single-proj-bblock{
+    position:relative;
+    margin-left:20px;
+    top:40px;
 }
