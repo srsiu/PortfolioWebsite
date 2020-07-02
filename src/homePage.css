@@ -37,8 +37,8 @@
 .intro-block{
     text-align:left;
     position: relative;
-    top:200px;
-    left:250px;
+    top:40%;
+    left:10%;
 }
 
 .hello-world-font{
@@ -76,22 +76,22 @@
 
 .button-block{
     position:relative;
-    top:250px;
-    left:250px;
+    top:50%;
+    left:10%;
 }
 
 .computer-block{
     position:relative;
-    top:175px;
-    left:100px;
+    top:40%;
+    left:15%;
     height:490px;
     width:auto;
 }
 
 .slides-block{
     position:absolute;
-    top:195px;
-    left:115px;
+    top:44%;
+    left:17.5%;
     width:500px;
     height:auto;
 }
@@ -103,7 +103,7 @@
 
 /* header styles */
 .header-banner{
-    width:100vw;
+    width:100%;
     height:85px;
     background-color:black;
     line-height:70px;
@@ -111,8 +111,7 @@
 
 .header-block{
     position: relative;
-    top:10px;
-    left:700px;
+    left:55%;
 }
 
 .header-font{
@@ -122,6 +121,19 @@
     font-family: 'Raleway', sans-serif;
     font-size:20px;
     color:white;
+}
+.header-banner a:link {
+    color: white;
+}
+
+/* visited link */
+.header-banner a:visited {
+    color: white;
+}
+
+.header-banner a:hover{
+    color:white;
+    text-decoration: none;
 }
 
 /* about me page styles */
@@ -135,8 +147,8 @@
 .about-me-block{
     position:relative;
     display:inline-block;
-    left:300px;
-    top:-50px;
+    left:30%;
+    top:20%;
 }
 
 .about-me-header{
@@ -149,15 +161,14 @@
 .about-me-paragraph-text{
     font-family: 'Raleway', sans-serif;
     font-size:20px;
-    margin-top:50px;
 }
 
 .image-block{
     position:relative;
     display:inline-block;
-    top:50px;
-    left:400px;
-    width:400px;
+    top:15%;
+    left:40%;
+    width:62%;
     height:500px;
 }
 
@@ -171,8 +182,8 @@
     position:relative;
     display:inline-block;
     vertical-align:top;
-    top:50px;
-    left:425px;
+    top:15%;
+    left:0px;
     width:100px;
     height:500px;
 }
@@ -209,9 +220,9 @@
 
 .experience-block{
     position:relative;
-    top:75px;
-    left:500px;
-
+    top:25%;
+    left:30%;
+    height:100%;
 }
 
 .experience-text{
@@ -223,7 +234,7 @@
 .uci-block{
     position:relative;
     left:0px;
-    top:-50px;
+    top:0px;
 }
 
 .education-header{
@@ -232,17 +243,18 @@
     font-weight: bold;
     color:black;
 
-    width:870px;
+    width:45%;
     border-bottom:solid 1px gray;
 }
 
 .uci-logo{
     position:relative;
     display: inline-block;
-    top:50px;
-    margin-right:50px;
-    width:120px;
+    top:0px;
+    left:0px;
+    width:35%;
     height:auto;
+    max-width:35%;
 }
 
 .lspire-logo{
@@ -273,7 +285,7 @@
 
 .year-text{
     display: inline-block;
-    margin-left:300px;
+    margin-left:0px;
     margin-top:0px;
     text-align: right;
     font-family: 'Raleway', sans-serif;
@@ -282,7 +294,7 @@
 }
 
 .relevant-course{
-    margin-left:170px;
+    margin-left:0px;
     display: inline-block;
     font-family: 'Raleway', sans-serif;
     font-size:20px;

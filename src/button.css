@@ -32,3 +32,9 @@
     font-size:20px;
     color: #004f59;
 }
+
+
+.button-hovered a:hover{
+    color: #004f59;
+    text-decoration: none;
+}
