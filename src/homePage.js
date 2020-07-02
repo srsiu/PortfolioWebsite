@@ -12,9 +12,9 @@ class HomePage extends Component{
                 <div className="row">
                     <div className="col-sm-9 col-md-6">
                         <div className="intro-block">
-                            <p className="hello-world-font">
+                            <h1 className="hello-world-font">
                                 Hello World! <br/> My name is
-                            </p>
+                            </h1>
                             <p className="name-font">Spencer Siu</p>
                             <p className="short-intro-font">
                                 I'm a software engineer from the San Francisco Bay Area.  I love <br/>
