@@ -8,9 +8,9 @@ import computer2 from "./img/computerscreen2.jpg"
 class HomePage extends Component{
     render(){
         return(
-            <div className="container-fluid">
+            <div className="container">
                 <div className="row">
-                    <div className="col-sm-9 col-md-6 col-xl-7">
+                    <div className="col-sm-12 col-md-9 col-xl-8">
                         <div className="intro-block">
                             <h3 className="hello-world-font">
                                 Hello World! <br/> My name is
@@ -25,7 +25,7 @@ class HomePage extends Component{
                             <Button button_text={"More about me"}/>
                         </div>
                     </div>
-                    <div className="col-sm-3 col-md-6 col-xl-5">
+                    <div className="col-sm-0 col-md-3 col-xl-4">
                         <SimpleSlider/>
                     </div>
                 </div>
