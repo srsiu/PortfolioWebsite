@@ -34,10 +34,17 @@
     height:auto;
 }
 
+.first-cont{
+    height:100%;
+}
+.first-row{
+    height:100%;
+}
+
 .intro-block{
     text-align:left;
     position: relative;
-    top:40%;
+    top:20%;
     left:10%;
 }
 
@@ -76,14 +83,14 @@
 
 .button-block{
     position:relative;
-    top:50%;
+    top:30%;
     left:10%;
-    height:100%
+    height:20%
 }
 
 .computer-block{
     position:absolute;
-    top:40%;
+    top:20%;
     left:20%;
     height:auto;
     width:70%;
@@ -99,7 +106,7 @@
 
 .slide-img{
     position:relative;
-    margin-top:43.5%;
+    margin-top:35.7%;
     margin-left:19%;
     width:72%;
     height:auto;

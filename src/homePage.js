@@ -8,8 +8,8 @@ import computer2 from "./img/computerscreen2.jpg"
 class HomePage extends Component{
     render(){
         return(
-            <div className="container">
-                <div className="row">
+            <div className="container first-cont">
+                <div className="row first-row">
                     <div className="col-sm-12 col-md-9 col-xl-8">
                         <div className="intro-block">
                             <h3 className="hello-world-font">
