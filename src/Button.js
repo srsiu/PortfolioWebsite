@@ -19,16 +19,18 @@ class Button extends Component{
 
     render() {
         return(
-          <div
-              onMouseOver={() => this.setState({hovered:true})}
-              onMouseOut={() => this.setState({hovered:false})}
-              onClick={this.onClickHandler}
-              className={`${this.state.hovered ? "button-hovered" : "button-unhovered" }`}>
-
-              <Link to="/about" className={`${this.state.hovered ? "button-text-hovered" : "button-text-unhovered" }`}>
-                  {this.state.text}
+            <div className="link-detail">
+              <Link to="/experience">
+                  <div onMouseOver={() => this.setState({hovered:true})}
+                       onMouseOut={() => this.setState({hovered:false})}
+                       onClick={this.onClickHandler}
+                       className={`${this.state.hovered ? "button-hovered" : "button-unhovered" }`}>
+                      <div  className={`${this.state.hovered ? "button-text-hovered" : "button-text-unhovered" }`}>
+                          {this.state.text}
+                      </div>
+                  </div>
               </Link>
-          </div>
+            </div>
         );
     }
 

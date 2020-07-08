@@ -22,7 +22,7 @@ class App extends Component {
 
                     <Switch>
                         <Route path="/blog" component={BlogScreen}/>
-                        <Route path="/about" component={AboutMe}/>
+                        <Route path="/experience" component={AboutMe}/>
                         <Route path="/projects" component={Projects}/>
                         <Route path="/" component={HomePage}/>
                     </Switch>

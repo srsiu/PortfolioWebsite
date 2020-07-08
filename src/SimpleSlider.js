@@ -6,12 +6,23 @@ import "slick-carousel/slick/slick-theme.css";
 import github from "./img/github.PNG"
 import linkedin from "./img/linkedin.PNG"
 import code from "./img/code.PNG"
-import computer from "./img/computerscreen2.jpg"
+import ocean from "./img/rock_beach.jpg"
+import forest from "./img/forest.jpg"
+import garden from "./img/garden.jpg"
+import trees from "./img/trees.JPG"
+import rocks from "./img/rocks.JPG"
+import mountain from "./img/mountain.jpg"
+import houses from "./img/houses.jpg"
+import longocean from "./img/longocean.jpg"
+import path from "./img/path.JPG"
+import road from "./img/road.jpg"
+
+import Button from "./Button";
 
 class SimpleSlider extends Component {
     render() {
         const settings = {
-            dots: false,
+            dots: true,
             infinite: true,
             speed: 500,
             slidesToShow: 1,
@@ -21,19 +32,26 @@ class SimpleSlider extends Component {
             arrows:false,
             fade:true,
             cssEase:"linear",
+            adaptiveHeight:false,
         };
         return (
-            <div>
-                <img src={computer} className="computer-block"/>
+            <div className="carousel-section">
+                <div className="slide-caption">
+                    <h1 className="hello-world-font">
+                        Hello World! <br/>
+                    </h1>
+                    <h3 className="name-font">My name is Spencer Siu</h3>
+                    <Button button_text={"More About Me"}/>
+                </div>
                 <Slider {...settings}>
-                    <div>
-                        <img src={code} className="slide-img"/>
+                    <div className="slide">
+                        <img src={road}/>
                     </div>
-                    <div>
-                        <img src={github} className="slide-img"/>
+                    <div className="slide">
+                        <img src={garden}/>
                     </div>
-                    <div>
-                        <img src={linkedin} className="slide-img"/>
+                    <div className="slide">
+                        <img src={path}/>
                     </div>
                 </Slider>
             </div>

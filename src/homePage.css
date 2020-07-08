@@ -1,3 +1,7 @@
+.padding{
+    padding-top:1rem;
+    padding-bottom: 2rem;
+}
 
 /* home page styles */
 .home-page-window{
@@ -49,35 +53,36 @@
 }
 
 .hello-world-font{
-    display: inline-block;
+
     /*font-family: 'Roboto', sans-serif;*/
     /*
     font-family: 'Montserrat', sans-serif;
     */
+    font-size:500%;
     font-family: 'Raleway', sans-serif;
-    font-size:60px;
     font-weight: bold;
-    color:black;
+    color:white;
     margin:0;
+    text-shadow: 2px 2px 10px #000;
 }
 
+
 .name-font{
-    display: inline-block;
     /*font-family: 'Roboto', sans-serif;*/
     /*font-family: 'Montserrat', sans-serif;*/
     font-family: 'Raleway', sans-serif;
-    font-size:60px;
+    font-size:250%;
     font-weight: bold;
-    color:#004f59;
-    margin-left:-15px;
+    color:white;
+    text-shadow: 1px 1px 10px #000;
 }
 
 .short-intro-font{
     /*font-family: 'Roboto', sans-serif;*/
     font-family: 'Raleway', sans-serif;
 
-    font-size:20px;
-    color:#474747;
+    font-size:130%;
+    color:black;
     margin-top:50px;
 }
 
@@ -104,13 +109,36 @@
     height:auto;
 }
 
-.slide-img{
+.carousel-section{
     position:relative;
-    margin-top:35.7%;
-    margin-left:19%;
-    width:72%;
-    height:auto;
+    margin-bottom:-20px;
 }
+
+.carousel-section img{
+    width:100%;
+    height:100%;
+}
+
+
+
+.slide{
+    position:relative;
+    text-align:center;
+}
+
+.slide-caption{
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position: absolute;
+    z-index: 2;
+}
+
+.jumbotron{
+    border-radius:0;
+    margin-top:0;
+}
+
 
 /* header styles */
 .header-banner{
@@ -121,8 +149,8 @@
 }
 
 .header-block{
-    position: relative;
-    left:55%;
+    /*position: relative;
+    left:55%;*/
 }
 
 .header-font{
@@ -158,8 +186,8 @@
 .about-me-block{
     position:relative;
     display:inline-block;
-    left:30%;
-    top:20%;
+    left:0;
+    top:0;
 }
 
 .about-me-header{
@@ -177,10 +205,10 @@
 .image-block{
     position:relative;
     display:inline-block;
-    top:15%;
-    left:40%;
-    width:62%;
-    height:500px;
+    top:0;
+    left:0;
+    width:100%;
+    height:auto;
 }
 
 .grad_pic{
@@ -231,10 +259,7 @@
 
 .experience-block{
     position:relative;
-    top:25%;
-    left:30%;
-    height:100%;
-    width:50%
+
 }
 
 .experience-text{
@@ -324,7 +349,6 @@
     position:relative;
     margin-left:0px;
     margin-top:0px;
-    height:200px;
 }
 
 .bubble-break{
