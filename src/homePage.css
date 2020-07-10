@@ -3,6 +3,14 @@
     padding-bottom: 2rem;
 }
 
+.padding-b{
+    padding-bottom: 2rem;
+}
+
+.padding-t{
+    padding-top:2rem;
+}
+
 /* home page styles */
 .home-page-window{
     height:100%;
@@ -141,11 +149,14 @@
 
 
 /* header styles */
+.navbar{
+    padding:.8rem;
+}
+
 .header-banner{
     width:100%;
-    height:85px;
+    height:75px;
     background-color:black;
-    line-height:70px;
 }
 
 .header-block{
@@ -156,7 +167,7 @@
 .header-font{
     text-decoration: none;
     display:inline-block;
-    margin-left:30px;
+    margin-right:30px;
     font-family: 'Raleway', sans-serif;
     font-size:17px;
     color:white;
@@ -396,8 +407,8 @@
     position:relative;
     display:inline-block;
     vertical-align: top;
-    margin-left:50px;
-    width:650px;
+    margin-left:0px;
+    width:100%;
     height:auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
@@ -441,7 +452,6 @@
     font-family: 'Raleway', sans-serif;
     font-size:50px;
     font-weight: bold;
-    left:400px;
 }
 
 .horizontal-row{
@@ -452,20 +462,15 @@
 
 .single-proj{
     position:relative;
-    vertical-align:top;
-    display:inline-block;
-    margin-right:100px;
     background-color:#f2f2f2;
-    width:400px;
-    height:375px;
+    width:100%;
+    height:100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
 .single-proj-title{
     position:relative;
-    top:20px;
-    left:20px;
     font-family: 'Raleway', sans-serif;
     font-size:20px;
     font-weight: bold;
@@ -474,8 +479,6 @@
 
 .single-proj-text{
     position:relative;
-    top:20px;
-    left:20px;
     font-family: 'Raleway', sans-serif;
     font-size:20px;
     color:black;
@@ -483,6 +486,46 @@
 
 .single-proj-bblock{
     position:relative;
-    margin-left:20px;
-    top:40px;
 }
+
+/* CONTACT ME PAGE */
+.contact-text{
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+    color:black;
+}
+
+.social a{
+    font-size:3.5em;
+    padding-right:3rem;
+}
+
+.fa-linkedin {
+    color: #0976b4;
+}
+
+.fa-github{
+    color:#333;
+}
+
+.fa-spotify {
+    color: #1ED760;
+}
+
+.fa-twitch{
+    color:#6441a5;
+}
+
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-spotify:hover,
+.fa-twitch:hover{
+    color:#dbdbdb;
+}
+
+/* FUN PAGE */
+.fun-text{
+    font-family: 'Raleway', sans-serif;
+    font-size:50px;
+}
+

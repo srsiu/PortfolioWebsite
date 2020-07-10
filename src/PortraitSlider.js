@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import funnel from "./img/funnelcake.jpg"
 import grad from "./img/gradpic.JPG"
 import field from "./img/fieldpic.JPG"
+import flos from "./img/flos.JPG"
 
 import Button from "./Button";
 
@@ -29,6 +30,9 @@ class PortraitSlider extends Component {
                 <Slider {...settings}>
                     <div className="slide">
                         <img src={grad}/>
+                    </div>
+                    <div className="slide">
+                        <img src={flos}/>
                     </div>
                     <div className="slide">
                         <img src={funnel}/>

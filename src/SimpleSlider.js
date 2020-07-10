@@ -3,17 +3,7 @@ import './homePage.css';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import github from "./img/github.PNG"
-import linkedin from "./img/linkedin.PNG"
-import code from "./img/code.PNG"
-import ocean from "./img/rock_beach.jpg"
-import forest from "./img/forest.jpg"
 import garden from "./img/garden.jpg"
-import trees from "./img/trees.JPG"
-import rocks from "./img/rocks.JPG"
-import mountain from "./img/mountain.jpg"
-import houses from "./img/houses.jpg"
-import longocean from "./img/longocean.jpg"
 import path from "./img/path.JPG"
 import road from "./img/road.jpg"
 

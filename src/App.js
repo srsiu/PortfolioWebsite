@@ -11,6 +11,8 @@ import PageHeader from "./header";
 import HomePage from "./homePage";
 import AboutMe from "./AboutMe";
 import Projects from "./Projects";
+import Contact from "./Contact";
+import Fun from "./Fun";
 
 
 class App extends Component {
@@ -19,11 +21,12 @@ class App extends Component {
             <div className="App">
                 <BrowserRouter basename={process.env.REACT_APP_ROUTER_BASE || ''}>
                     <PageHeader></PageHeader>
-
                     <Switch>
                         <Route path="/blog" component={BlogScreen}/>
                         <Route path="/experience" component={AboutMe}/>
                         <Route path="/projects" component={Projects}/>
+                        <Route path="/contact" component={Contact}/>
+                        <Route path="/fun" component={Fun}/>
                         <Route path="/" component={HomePage}/>
                     </Switch>
                 </BrowserRouter>

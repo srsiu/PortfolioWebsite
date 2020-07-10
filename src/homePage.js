@@ -5,15 +5,6 @@ import Button2 from "./Button2";
 
 import SimpleSlider from "./SimpleSlider";
 import PortraitSlider from "./PortraitSlider";
-import computer2 from "./img/computerscreen2.jpg"
-import gradpic from "./img/gradpic.JPG";
-import SideImage from "./SideImage";
-import fieldpic from "./img/fieldpic.JPG";
-import funnelpic from "./img/funnelcake.jpg";
-import arms from "./img/arms.JPG";
-import hard from "./img/hard.JPG";
-import sf from "./img/sf.JPG";
-import sunset from "./img/sunset.JPG";
 
 
 class HomePage extends Component{
@@ -37,7 +28,7 @@ class HomePage extends Component{
                     </div>
                     <div className="container-fluid padding">
                         <div className="row padding">
-                            <div className="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                            <div className="col-sm-12 col-md-8 col-lg-8 col-xl-9">
                                 <p className="about-me-header">About Me</p>
                                 <br/>
                                 <p className="about-me-paragraph-text">Hi! I'm Spencer, a software engineer based in the beautiful.
@@ -52,12 +43,12 @@ class HomePage extends Component{
                                     developement team.  Learning React during that internship helped me create this portfolio you see
                                     today.
                                     <br/><br/>
-                                    When I'm not coding, you'll find me playing video games, watching
+                                    When I'm not coding, you'll find me playing Call of Duty Warzone, watching
                                     Netflix, giving haircuts, or playing tennis.
                                 </p>
                                 <Button2 button_text={"See My Experience"} link_text={"/experience"}/>
                             </div>
-                            <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                            <div className="col-sm-12 col-md-4 col-lg-4 col-xl-3">
                                 <PortraitSlider/>
                             </div>
                         </div>
