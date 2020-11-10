@@ -11,61 +11,19 @@
     padding-top:2rem;
 }
 
+#tsparticles canvas{
+    width:100vw !important;
+    height:100vh !important;
+    background-image: url("");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:50% 50%;
+}
+
 /* home page styles */
-.home-page-window{
-    height:100%;
-    width:100%;
-}
 
-.full-half{
-    vertical-align: top;
-    position:relative;
-    height:70%;
-    width:100%;
-    border-bottom:1px solid #dedede;
-}
-
-.left-half{
-    vertical-align: top;
-    display:inline-block;
-    position:relative;
-    height:70%;
-    width:55%;
-}
-
-.right-half{
-    display:inline-block;
-    position:relative;
-    height:70%;
-    width:45%;
-}
-
-.home-image{
-    position:relative;
-    width:100%;
-    height:auto;
-}
-
-.first-cont{
-    height:100%;
-}
-.first-row{
-    height:100%;
-}
-
-.intro-block{
-    text-align:left;
-    position: relative;
-    top:20%;
-    left:10%;
-}
 
 .hello-world-font{
-
-    /*font-family: 'Roboto', sans-serif;*/
-    /*
-    font-family: 'Montserrat', sans-serif;
-    */
     font-size:500%;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
@@ -76,8 +34,6 @@
 
 
 .name-font{
-    /*font-family: 'Roboto', sans-serif;*/
-    /*font-family: 'Montserrat', sans-serif;*/
     font-family: 'Raleway', sans-serif;
     font-size:250%;
     font-weight: bold;
@@ -101,22 +57,6 @@
     height:20%
 }
 
-.computer-block{
-    position:absolute;
-    top:20%;
-    left:20%;
-    height:auto;
-    width:70%;
-}
-
-.slides-block{
-    position:absolute;
-    top:0%;
-    left:0%;
-    width:auto;
-    height:auto;
-}
-
 .carousel-section{
     position:relative;
     margin-bottom:-20px;
@@ -126,8 +66,6 @@
     width:100%;
     height:100%;
 }
-
-
 
 .slide{
     position:relative;
@@ -147,6 +85,36 @@
     margin-top:0;
 }
 
+@media (max-width:768px){
+    .slide-caption{
+        top:50%;
+
+    }
+    .hello-world-font{
+        font-size:350%;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        color:white;
+        margin:0;
+    }
+    .name-font{
+        font-family: 'Raleway', sans-serif;
+        font-size:140%;
+        font-weight: bold;
+        color:white;
+    }
+}
+
+.info-about-me{
+    position:relative;
+    top:0;
+}
+
+.bg-particles{
+    /* Full height */
+    position:absolute;
+}
+
 
 /* header styles */
 .navbar{
@@ -159,12 +127,26 @@
     background-color:black;
 }
 
+.header-color{
+    background-color:black;
+}
+
 .header-block{
     /*position: relative;
     left:55%;*/
 }
 
-.header-font{
+.navbar-nav a:link{
+    color:white;
+    text-decoration: none;
+}
+
+.navbar-nav a:hover{
+    color:#dbdbdb;
+    text-decoration: none;
+}
+
+.header-font {
     text-decoration: none;
     display:inline-block;
     margin-right:30px;
@@ -293,6 +275,15 @@
 
     width:90%;
     border-bottom:solid 1px gray;
+}
+
+.sjsu-logo{
+    position:relative;
+    display: inline-block;
+    top:0px;
+    left:0px;
+    width:30%;
+    height:auto;
 }
 
 .uci-logo{

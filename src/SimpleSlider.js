@@ -7,6 +7,9 @@ import garden from "./img/garden.jpg"
 import path from "./img/path.JPG"
 import road from "./img/road.jpg"
 
+import forrest from "./img/forest2.jpg"
+import rock_beach from "./img/rock_beach.jpg"
+
 import Button from "./Button";
 
 class SimpleSlider extends Component {
@@ -35,10 +38,13 @@ class SimpleSlider extends Component {
                 </div>
                 <Slider {...settings}>
                     <div className="slide">
-                        <img src={road}/>
+                        <img src={forrest}/>
                     </div>
                     <div className="slide">
-                        <img src={garden}/>
+                        <img src={rock_beach}/>
+                    </div>
+                    <div className="slide">
+                        <img src={road}/>
                     </div>
                     <div className="slide">
                         <img src={path}/>

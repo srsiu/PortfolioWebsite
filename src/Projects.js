@@ -2,18 +2,116 @@ import React, { Component } from 'react';
 import './homePage.css';
 import Bubble from "./Bubble";
 import fablix from "./img/fablix.png"
+import discord from "./img/discord.PNG"
+import wumpus from "./img/wumpus.PNG"
+import Particles from "react-particles-js";
 
 class Projects extends Component{
+    constructor(props) {
+        super(props);
+        this.state = {
+            options:{
+                particles: {
+                    number: {
+                        value: 150,
+                        density: {
+                            enable: true,
+                            value_area: 2000,
+                        }
+                    },
+                    color: {
+                        value: "#1a1a1a",
+                    },
+                    shape: {
+                        type: "circle",
+                        stroke: {
+                            width: 0,
+                            color: "#000000"
+                        },
+                        polygon: {
+                            nb_sides: 5
+                        },
+                    },
+                    line_linked: {
+                        enable: true,
+                        distance: 120,
+                        color: "#B6B6B6",
+                        opacity: 0.9,
+                        width: 2
+                    },
+                    move: {
+                        enable: true,
+                        speed: 4,
+                        direction: "none",
+                        random: true,
+                        straight: false,
+                        out_mode: "out",
+                        bounce: false,
+                        attract: {
+                            enable: false,
+                            rotateX: 600,
+                            rotateY: 1200
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     render(){
         return(
             <div>
+                <Particles
+                    style={{
+                        position:"absolute",
+                        zIndex:"-1"
+                    }}
+                    params={this.state.options}
+                />
                 <div className="container">
                     <div className="row padding">
                         <div className="col-12">
                             <p className="experience-text">Projects</p>
                         </div>
                     </div>
+
+                    <div className="container padding">
+                        <div className="row padding">
+                            <div className="col-md-12 col-lg-6">
+                                <div className="row padding">
+                                    <div className="col-xs-12 col-md-6">
+                                        <p className="project-title">Discord Playlists<br/> </p>
+                                    </div>
+                                    <div className="col-xs-12 col-md-6">
+                                        <p className="year-text">Oct 2020 - Present 2020<br/></p>
+                                    </div>
+                                </div>
+                                <div className="row padding-b">
+                                    <div className="col-xs-12 col-md-12">
+                                        <p className="project-points">
+                                            A Spotify integration for Discord where users can synchronously listen to shared
+                                            Spotify playlists in their private Discord voice calls/channels.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="row padding-b">
+                                    <div className="col-xs-12 col-md-12">
+                                        <Bubble btext={"Python"} nline={false}/>
+                                        <Bubble btext={"Linux"} nline={false}/>
+                                        <Bubble btext={"Git"} nline={false}/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-12 col-lg-6">
+                                <img src={discord} className="project-screenshot"/>
+                            </div>
+                        </div>
+                    </div>
+
                     <div className="row padding">
+                        <div className="col-md-12 col-lg-6">
+                            <img src={fablix} className="project-screenshot"/>
+                        </div>
                         <div className="col-md-12 col-lg-6">
                             <div className="row padding">
                                 <div className="col-xs-12 col-md-6">
@@ -44,17 +142,11 @@ class Projects extends Component{
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-12 col-lg-6">
-                            <img src={fablix} className="project-screenshot"/>
-                        </div>
                     </div>
                 </div>
 
                 <div className="container padding">
                     <div className="row padding">
-                        <div className="col-md-12 col-lg-6">
-                            <img src={fablix} className="project-screenshot"/>
-                        </div>
                         <div className="col-md-12 col-lg-6">
                             <div className="row padding">
                                 <div className="col-xs-12 col-md-6">
@@ -80,42 +172,12 @@ class Projects extends Component{
                                 </div>
                             </div>
                         </div>
+                        <div className="col-md-12 col-lg-6">
+                            <img src={wumpus} className="project-screenshot"/>
+                        </div>
                     </div>
                 </div>
 
-                <div className="container padding">
-                    <div className="row padding">
-                        <div className="col-md-12 col-lg-6">
-                            <div className="row padding">
-                                <div className="col-xs-12 col-md-6">
-                                    <p className="project-title">Search UC Irvine<br/> </p>
-                                </div>
-                                <div className="col-xs-12 col-md-6">
-                                    <p className="year-text">May 2019 - Jun 2019<br/></p>
-                                </div>
-                            </div>
-                            <div className="row padding-b">
-                                <div className="col-xs-12 col-md-12">
-                                    <p className="project-points">
-                                        An instant search engine (&lt;2sec) to help users find webpages relating
-                                        to UC Irvine.  Utilizes an extensive database of webpages to help users find
-                                        the information they are seeking.
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="row padding-b">
-                                <div className="col-xs-12 col-md-12">
-                                    <Bubble btext={"Python"} nline={false}/>
-                                    <Bubble btext={"Linux"} nline={false}/>
-                                    <Bubble btext={"Git"} nline={false}/>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-12 col-lg-6">
-                            <img src={fablix} className="project-screenshot"/>
-                        </div>
-                    </div>
-                </div>
 
                 <div className="container">
                     <div className="row padding">

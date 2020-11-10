@@ -5,9 +5,61 @@ import Button2 from "./Button2";
 
 import SimpleSlider from "./SimpleSlider";
 import PortraitSlider from "./PortraitSlider";
+import Particles from 'react-particles-js'
 
 
 class HomePage extends Component{
+    constructor(props) {
+        super(props);
+        this.state = {
+            options:{
+                particles: {
+                    number: {
+                        value: 150,
+                        density: {
+                            enable: true,
+                            value_area: 2000,
+                        }
+                    },
+                    color: {
+                        value: "#1a1a1a",
+                    },
+                    shape: {
+                        type: "circle",
+                        stroke: {
+                            width: 0,
+                            color: "#000000"
+                        },
+                        polygon: {
+                            nb_sides: 5
+                        },
+                    },
+                    line_linked: {
+                        enable: true,
+                        distance: 120,
+                        color: "#B6B6B6",
+                        opacity: 0.9,
+                        width: 2
+                    },
+                    move: {
+                        enable: true,
+                        speed: 4,
+                        direction: "none",
+                        random: true,
+                        straight: false,
+                        out_mode: "out",
+                        bounce: false,
+                        attract: {
+                            enable: false,
+                            rotateX: 600,
+                            rotateY: 1200
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     render(){
         return(
             <div>
@@ -18,7 +70,7 @@ class HomePage extends Component{
                            <p className="short-intro-font">
                                Welcome to my portfolio! I'm a software engineer from the San Francisco Bay Area.  I love
                                to work on websites, mobile apps, and everything in between. Feel free to
-                               connect with me at srsiu@uci.edu
+                               connect with me at spencersiuu@gmail.com
                            </p>
                        </div>
                         <div className="col-xs-12 col-md-3">
@@ -27,6 +79,15 @@ class HomePage extends Component{
                         <hr className="my-4"></hr>
                     </div>
                     <div className="container-fluid padding">
+                        <Particles
+                            style={{
+                                width:"100vw",
+                                height:"100vh",
+                                position:"absolute",
+                                zIndex:"-1"
+                            }}
+                            params={this.state.options}
+                        />
                         <div className="row padding">
                             <div className="col-sm-12 col-md-8 col-lg-8 col-xl-9">
                                 <p className="about-me-header">About Me</p>

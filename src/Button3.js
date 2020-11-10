@@ -21,7 +21,7 @@ class Button3 extends Component{
     render() {
         return(
             <div className="link-detail2">
-                <a href="mailto:srsiu@uci.edu">
+                <a href="mailto:spencersiuu@gmail.com">
                     <div onMouseOver={() => this.setState({hovered:true})}
                          onMouseOut={() => this.setState({hovered:false})}
                          onClick={this.onClickHandler}

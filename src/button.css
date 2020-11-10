@@ -45,6 +45,55 @@
     text-shadow: 1px 1px 10px #000;
 }
 
+@media (max-width:768px){
+    .link-detail a:hover{
+        color: #dbdbdb;
+        text-decoration: none;
+    }
+
+    .button-unhovered{
+        margin:0 auto;
+        line-height:40px;
+        width:150px;
+        height:40px;
+        text-align:center;
+        border:2px solid white;
+        border-radius: 15px;
+        box-shadow: 1px 1px 10px #000;
+    }
+
+    .button-hovered{
+        margin:0 auto;
+        line-height:40px;
+        width:150px;
+        height:40px;
+        text-align:center;
+        border:2px solid #dbdbdb;
+        border-radius: 15px;
+        box-shadow: 1px 1px 10px #000;
+
+    }
+
+    .button-text-unhovered{
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+        font-weight:bold;
+        font-size:15px;
+        color:white;
+        text-shadow: 1px 1px 10px #000;
+    }
+
+    .button-text-hovered{
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+        font-weight:bold;
+        font-size:15px;
+        color: #dbdbdb;
+        text-shadow: 1px 1px 10px #000;
+    }
+
+}
+
 
 .button-hovered a:hover{
     color: #dbdbdb;

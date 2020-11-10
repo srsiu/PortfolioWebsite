@@ -22,7 +22,6 @@ class App extends Component {
                 <BrowserRouter basename={process.env.REACT_APP_ROUTER_BASE || ''}>
                     <PageHeader></PageHeader>
                     <Switch>
-                        <Route path="/blog" component={BlogScreen}/>
                         <Route path="/experience" component={AboutMe}/>
                         <Route path="/projects" component={Projects}/>
                         <Route path="/contact" component={Contact}/>
