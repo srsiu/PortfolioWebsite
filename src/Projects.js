@@ -3,7 +3,7 @@ import './homePage.css';
 import Bubble from "./Bubble";
 import fablix from "./img/fablix.png"
 import discord from "./img/discord.PNG"
-import wumpus from "./img/wumpus.PNG"
+import amazon from "./img/amazon.PNG"
 import Particles from "react-particles-js";
 
 class Projects extends Component{
@@ -80,6 +80,44 @@ class Projects extends Component{
                             <div className="col-md-12 col-lg-6">
                                 <div className="row padding">
                                     <div className="col-xs-12 col-md-6">
+                                        <p className="project-title">Amazon Clone <br/> </p>
+                                    </div>
+                                    <div className="col-xs-12 col-md-6">
+                                        <p className="year-text">Nov 2020 - Dec 2020<br/></p>
+                                    </div>
+                                </div>
+                                <div className="row padding-b">
+                                    <div className="col-xs-12 col-md-12">
+                                        <p className="project-points">
+                                            A full-stack e-commerce website modeled after Amazon's home webpage. Users have
+                                            the ability to create an account/sign-in and purchase products through Stripe API.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="row padding-b">
+                                    <div className="col-xs-12 col-md-12">
+                                        <Bubble btext={"React.js"} nline={false}/>
+                                        <Bubble btext={"JavaScript"} nline={false}/>
+                                        <Bubble btext={"CSS"} nline={false}/>
+                                        <Bubble btext={"Stripe"} nline={false}/>
+                                        <Bubble btext={"Firebase"} nline={false}/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-12 col-lg-6">
+                                <img src={amazon} className="project-screenshot"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="container padding">
+                        <div className="row padding">
+                            <div className="col-md-12 col-lg-6">
+                                <img src={discord} className="project-screenshot"/>
+                            </div>
+                            <div className="col-md-12 col-lg-6">
+                                <div className="row padding">
+                                    <div className="col-xs-12 col-md-6">
                                         <p className="project-title">Discord Playlists<br/> </p>
                                     </div>
                                     <div className="col-xs-12 col-md-6">
@@ -102,16 +140,10 @@ class Projects extends Component{
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-12 col-lg-6">
-                                <img src={discord} className="project-screenshot"/>
-                            </div>
                         </div>
                     </div>
 
                     <div className="row padding">
-                        <div className="col-md-12 col-lg-6">
-                            <img src={fablix} className="project-screenshot"/>
-                        </div>
                         <div className="col-md-12 col-lg-6">
                             <div className="row padding">
                                 <div className="col-xs-12 col-md-6">
@@ -142,43 +174,13 @@ class Projects extends Component{
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-
-                <div className="container padding">
-                    <div className="row padding">
                         <div className="col-md-12 col-lg-6">
-                            <div className="row padding">
-                                <div className="col-xs-12 col-md-6">
-                                    <p className="project-title">Wumpus World <br/> </p>
-                                </div>
-                                <div className="col-xs-12 col-md-6">
-                                    <p className="year-text">Feb 2020 - Apr 2020<br/></p>
-                                </div>
-                            </div>
-                            <div className="row padding-b">
-                                <div className="col-xs-12 col-md-12">
-                                    <p className="project-points">
-                                        A 2-d artifically intelligent simulation of the survival/obstacle course game called
-                                        Wumpus World.  Received 10th place out of 167 teams in class tournament.
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="row padding-b">
-                                <div className="col-xs-12 col-md-12">
-                                    <Bubble btext={"Python"} nline={false}/>
-                                    <Bubble btext={"Linux"} nline={false}/>
-                                    <Bubble btext={"Git"} nline={false}/>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-12 col-lg-6">
-                            <img src={wumpus} className="project-screenshot"/>
+                            <img src={fablix} className="project-screenshot"/>
                         </div>
                     </div>
                 </div>
 
-
+            
                 <div className="container">
                     <div className="row padding">
                         <div className="col-12 text-center">
@@ -273,16 +275,14 @@ class Projects extends Component{
                         <div className="col-lg-4">
                             <div className="single-proj card">
                                 <div className="card-body">
-                                    <p className="single-proj-title">Photo Gallery</p>
+                                    <p className="single-proj-title">Wumpus World</p>
                                     <p className="single-proj-text">
-                                        A simple program that displays pictures in a slideshow.  Users
-                                        can upload their personal photos and see them on the site.
+                                        An artifically intelligent program that simulates the survival game
+                                        Wumpus World.  Recieved 10th place for best A.I. in class tournament.
                                     </p>
                                     <div className="single-proj-bblock">
-                                        <Bubble btext={"Java"} nline={false}/>
-                                        <Bubble btext={"Javascript"} nline={false}/>
-                                        <Bubble btext={"HTML"} nline={false}/>
-                                        <Bubble btext={"CSS"} nline={false}/>
+                                        <Bubble btext={"Python"} nline={false}/>
+                                        <Bubble btext={"Git"} nline={false}/>
                                     </div>
                                 </div>
                             </div>
